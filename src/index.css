@@ -1,0 +1,19 @@
+main {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background: #f1f4fa;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+}
+.container {
+  display: flex;
+  width: 90%;
+  height: auto;
+  border-radius: 2.5rem;
+  padding: 3rem 0;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
