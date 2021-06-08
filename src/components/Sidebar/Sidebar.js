@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import { useState } from "react";
-import "./styles.css";
+import "./sidebar.css";
 import { FaBeer, FaHome } from "react-icons/fa";
 import { FaCreditCard } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";

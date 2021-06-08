@@ -41,7 +41,7 @@ input {
 .card-holder {
   display: flex;
   /* border: 2px green solid; */
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 .card {
   width: 12rem;

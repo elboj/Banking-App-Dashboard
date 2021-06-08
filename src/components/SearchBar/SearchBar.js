@@ -7,6 +7,7 @@ import { BiRefresh } from "react-icons/bi";
 import { HiOutlineRefresh } from "react-icons/hi";
 import { HiDownload } from "react-icons/hi";
 import { HiUpload } from "react-icons/hi";
+import { Transactions } from "../../components/index";
 
 // Use a useEffect and Use Reference to cause focus on form input  on every render
 //set online icon to blinking
@@ -31,6 +32,7 @@ const SearchBar = () => {
         />
       </form>
       <CreditCard />
+      <Transactions />
     </div>
   );
 };
