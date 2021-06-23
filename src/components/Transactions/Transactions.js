@@ -3,7 +3,7 @@ import React from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { HiDownload } from "react-icons/hi";
 import { HiUpload } from "react-icons/hi";
-import "./Transactions.css";
+import "./transactions.css";
 
 const transactionHistory = [
   {
