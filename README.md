@@ -2,6 +2,8 @@
 ##IMPORTANT: PROJECT IS NOT YET COMPLETE. IT HASN'T BEEN OPTIMIZED YET FOR RESPONSIVNESS. ONLY VIEW IN DESKTOP MODE
 ##PERIODIC UPDATES WOULD BE DISPLAYED HERE
 
+##VIEW DEMO [HERE](https://elboj.github.io/banking-app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
