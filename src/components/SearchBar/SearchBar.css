@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 57%;
   padding: 0 1rem;
+  /* border: 2px solid red; */
 }
 
 .searchForm {
@@ -15,7 +16,7 @@
   border-bottom-left-radius: 0rem;
   border-top-left-radius: 0rem;
   width: 25rem;
-  height: 2.2rem;
+  height: 2.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -26,7 +27,7 @@
 }
 
 .search-btn {
-  height: 2.2rem;
+  height: 2.5rem;
   border-color: transparent;
   background: hsl(0, 0%, 100%);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -41,16 +42,53 @@
 
 .card-holder {
   display: flex;
-  /* border: 2px green solid; */
   padding: 2rem 0;
 }
 .card {
+  display: flex;
+  /* border: 2px green solid; */
   width: 14rem;
   height: 8rem;
   border-radius: 1rem;
   background: #ff3461;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   overflow: hidden;
+}
+
+.circle-bg {
+  position: relative;
+  z-index: 20 !important;
+  /* border: 2px solid fuchsia; */
+}
+
+/* .logoDate {
+  display: flex;
+  width: 100% !important;
+  border: 2px solid blue;
+  z-index: 40;
+  position: relative;
+  justify-content: space-between;
+} */
+
+.circlelogo {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid white;
+  z-index: 10;
+  position: relative;
+  align-self: flex-end;
+}
+
+.cl1 {
+  left: 1rem;
+  /* top: 1.7rem; */
+}
+.cl2 {
+  left: 0.5rem;
+  /* top: 0.8rem; */
+  z-index: 10;
 }
 
 .card-text {
@@ -65,9 +103,9 @@
   letter-spacing: 0.05rem;
 }
 
-.date {
-  left: 9rem;
-}
+/* .date {
+  left: 12rem;
+} */
 
 .dots {
   font-size: 1rem;
@@ -76,27 +114,7 @@
 
 .card-number {
   top: 2rem;
-  left: 2.5rem;
-}
-
-.circlelogo {
-  width: 0.9rem;
-  height: 0.9rem;
-  border-radius: 50%;
-  background: transparent;
-  border: 2px solid white;
-  z-index: 10;
-  position: relative;
-}
-
-.cl1 {
-  left: 1rem;
-  top: 1.7rem;
-}
-.cl2 {
-  left: 1.5rem;
-  top: 0.8rem;
-  z-index: 10;
+  left: 3.5rem;
 }
 
 .circle {
@@ -110,29 +128,29 @@
 }
 
 .circle1 {
-  top: -8rem;
-  left: 2rem;
+  /* top: -8rem;
+  left: 2rem; */
   width: 3rem;
   height: 3rem;
 }
 
 .circle2 {
-  top: -11rem;
-  left: 6rem;
+  /* top: -11rem;
+  left: 6rem; */
   width: 4rem;
   height: 4rem;
 }
 
 .circle3 {
-  top: -12rem;
-  left: 3rem;
+  /* top: -12rem;*/
+  left: 5rem;
   width: 5rem;
   height: 5rem;
 }
 
 .circle4 {
-  top: -13rem;
-  left: -1rem;
+  top: -10rem;
+  left: 4rem;
   width: 5rem;
   height: 5rem;
   background-image: linear-gradient(
@@ -142,8 +160,8 @@
   );
 }
 .circle5 {
-  top: -20rem;
-  left: 3rem;
+  top: -17rem;
+  left: 8rem;
   width: 5.5rem;
   height: 6rem;
 }

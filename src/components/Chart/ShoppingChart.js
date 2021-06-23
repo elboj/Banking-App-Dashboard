@@ -11,6 +11,8 @@ const ShoppingChart = () => {
     <section className="mainContainer">
       <div className="chartContainer">
         <LineChart />
+      </div>
+      <div className="buyContainer">
         <Converter />
       </div>
     </section>

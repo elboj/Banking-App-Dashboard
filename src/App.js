@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React, { useState, useEffect } from "react";
-// import Sidebar from "./components/Sidebar/Sidebar";
+import "./index.css";
 import {
   Sidebar,
   SearchBar,
@@ -8,7 +8,6 @@ import {
   Converter,
   ShoppingChart,
 } from "./components/index";
-import "./index.css";
 
 function App() {
   const [hidden, setHidden] = useState(true);
