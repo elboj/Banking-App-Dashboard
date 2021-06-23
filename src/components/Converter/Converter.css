@@ -1,0 +1,62 @@
+.converterContainer {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 14rem;
+  height: auto;
+  align-items: center;
+  padding: 1rem 0rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  /* border: 2px solid red; */
+}
+
+.converterHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  padding: 0 1rem;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+.converterHolder {
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  background: rgb(246, 245, 250);
+}
+
+.inputField {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  border: none;
+  background-color: rgb(246, 245, 250);
+  font-size: 30px;
+  text-align: center;
+  font-family: "Josefin Sans";
+}
+
+.currencyOptions {
+  display: block;
+  width: 50px;
+  height: 25px;
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: rgb(225, 225, 225);
+  border-color: rgb(246, 245, 250);
+  font-family: "Josefin Sans";
+}
+
+.btn-style {
+  /* border: 2px slateblue solid; */
+  display: block;
+  margin: 0.5rem auto;
+  width: 2.5rem;
+  height: 2.5rem;
+}

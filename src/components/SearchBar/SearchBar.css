@@ -1,19 +1,20 @@
 .form-container {
   display: flex;
   flex-direction: column;
-  padding: 0 1.5rem;
+  width: 57%;
+  padding: 0 1rem;
 }
 
-form {
+.searchForm {
   display: flex;
 }
-input {
+.searchBar {
   background: hsl(0, 0%, 100%);
   border-color: transparent;
   border-radius: 5rem;
   border-bottom-left-radius: 0rem;
   border-top-left-radius: 0rem;
-  width: 30rem;
+  width: 25rem;
   height: 2.2rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -44,7 +45,7 @@ input {
   padding: 2rem 0;
 }
 .card {
-  width: 12rem;
+  width: 14rem;
   height: 8rem;
   border-radius: 1rem;
   background: #ff3461;
@@ -149,8 +150,8 @@ input {
 
 .circle6 {
   top: -26rem;
-  left: 7rem;
-  width: 5.5rem;
+  left: 8rem;
+  width: 6rem;
   height: 6rem;
   background-image: linear-gradient(
     to bottom right,
@@ -229,4 +230,11 @@ input {
     rgb(253, 59, 23)
   );
   box-shadow: 5px 9px 11px rgba(253, 59, 23, 0.4);
+}
+
+.transExchangeContainer {
+  /* border: 2px solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

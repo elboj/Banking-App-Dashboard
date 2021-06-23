@@ -3,11 +3,12 @@ import React from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { HiDownload } from "react-icons/hi";
 import { HiUpload } from "react-icons/hi";
-import "./transactions.css";
+import "./Transactions.css";
 
 const transactionHistory = [
   {
     name: "Fasoranti Tosin",
+    id: 1,
     date: "22, March 2021",
     amount: "$5000",
     status: "sent",
@@ -16,6 +17,7 @@ const transactionHistory = [
   },
   {
     name: "Deborah Obemi",
+    id: 2,
     date: "22, January 2021",
     amount: "$300",
     status: "received",
@@ -24,6 +26,7 @@ const transactionHistory = [
   },
   {
     name: "Siewe Wambe",
+    id: 3,
     date: "22, January 2021",
     amount: "$3500",
     status: "reveived",
@@ -32,6 +35,7 @@ const transactionHistory = [
   },
   {
     name: "Freddy Poundz",
+    id: 4,
     date: "12, July 2021",
     amount: "$2000",
     status: "reveived",
@@ -40,6 +44,7 @@ const transactionHistory = [
   },
   {
     name: "Bolu Adaja",
+    id: 5,
     date: "12, July 2021",
     amount: "$1500",
     status: "sent",
@@ -59,9 +64,9 @@ const Transactions = () => {
         </button>
       </div>
       {transactionHistory.map((details) => {
-        const { name, date, amount, status, userAvatar } = details;
+        const { name, date, amount, status, userAvatar, id } = details;
         return (
-          <section className="transactionDetails">
+          <section className="transactionDetails" key={id}>
             <div className="nameContainer">
               <div className="avatar">
                 <img src={userAvatar} alt="user" className="userImg" />

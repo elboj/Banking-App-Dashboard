@@ -1,13 +1,13 @@
 /* eslint-disable */
 import React from "react";
-import "./styles.css";
+import "./SearchBar.css";
 import { useState } from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { BiRefresh } from "react-icons/bi";
 import { HiOutlineRefresh } from "react-icons/hi";
 import { HiDownload } from "react-icons/hi";
 import { HiUpload } from "react-icons/hi";
-import { Transactions } from "../../components/index";
+import { Transactions, Converter } from "../../components/index";
 
 // Use a useEffect and Use Reference to cause focus on form input  on every render
 //set online icon to blinking
@@ -16,14 +16,18 @@ import { Transactions } from "../../components/index";
 
 const SearchBar = () => {
   const [query, setQuery] = useState("");
+  const handleSearch = (e) => {
+    e.preventDefault();
+  };
   return (
-    <div className="form-container">
-      <form onSubmit>
-        <button type="submit" className="search-btn">
+    <section className="form-container">
+      <form className="searchForm" onSubmit={handleSearch}>
+        <button type="btn" className="search-btn">
           <BiSearchAlt />
         </button>
         <input
           type="text"
+          className="searchBar"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
@@ -32,8 +36,11 @@ const SearchBar = () => {
         />
       </form>
       <CreditCard />
-      <Transactions />
-    </div>
+      <div className="transExchangeContainer">
+        <Transactions />
+        <Converter />
+      </div>
+    </section>
   );
 };
 
